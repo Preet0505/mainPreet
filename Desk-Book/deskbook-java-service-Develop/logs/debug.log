@@ -1,0 +1,72 @@
+2023-06-15 10:52:38 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				An error occurred in getCities: / by zero
+2023-06-15 10:55:05 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				Preet is great
+2023-06-15 10:55:05 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				An error occurred in getCities: / by zero
+2023-06-15 11:34:16 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				Preet is great
+2023-06-15 11:34:16 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				An error occurred in getCities: / by zero
+2023-06-15 12:22:59 [http-nio-9443-exec-3] ERROR c.o.d.controllers.CityController -
+				Preet is great
+2023-06-15 12:22:59 [http-nio-9443-exec-3] ERROR c.o.d.controllers.CityController -
+				An error occurred in getCities: / by zero
+2023-06-15 12:34:30 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.0.Final
+2023-06-15 12:34:30 [main] INFO  c.o.d.DeskbookUserServicesApplication -
+				Starting DeskbookUserServicesApplication using Java 17.0.5 with PID 6408 (C:\Users\preet.patel\eclipse-workspace\Desk-Book\deskbook-java-service-Develop\target\classes started by preet.patel in C:\Users\preet.patel\eclipse-workspace\Desk-Book\deskbook-java-service-Develop)
+2023-06-15 12:34:30 [main] INFO  c.o.d.DeskbookUserServicesApplication -
+				The following 1 profile is active: "local"
+2023-06-15 12:34:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-15 12:34:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 194 ms. Found 11 JPA repository interfaces.
+2023-06-15 12:34:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 9443 (http)
+2023-06-15 12:34:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-9443"]
+2023-06-15 12:34:33 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-06-15 12:34:33 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-06-15 12:34:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-06-15 12:34:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 3496 ms
+2023-06-15 12:34:34 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-15 12:34:34 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-15 12:34:35 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2023-06-15 12:34:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: bdce32c8-d194-475c-992d-d0028fc4d43a
+2023-06-15 12:34:35 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2023-06-15 12:34:35 [main] INFO  SQL dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-06-15 12:34:37 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-15 12:34:37 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-15 12:34:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-15 12:34:42 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -
+				Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3625093d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3048ec86, org.springframework.security.web.context.SecurityContextHolderFilter@2bb7229e, org.springframework.security.web.header.HeaderWriterFilter@7a506493, org.springframework.web.filter.CorsFilter@49e69196, org.springframework.security.web.authentication.logout.LogoutFilter@2c1a86e1, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4d768435, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a49c1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7277fa93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76e51181, org.springframework.security.web.access.ExceptionTranslationFilter@111c9be, org.springframework.security.web.access.intercept.AuthorizationFilter@30b16aa6]
+2023-06-15 12:34:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-9443"]
+2023-06-15 12:34:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 9443 (http) with context path ''
+2023-06-15 12:34:43 [main] INFO  c.o.d.DeskbookUserServicesApplication -
+				Started DeskbookUserServicesApplication in 13.562 seconds (process running for 14.66)
+2023-06-15 12:34:53 [http-nio-9443-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-15 12:34:53 [http-nio-9443-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2023-06-15 12:34:53 [http-nio-9443-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 8 ms
+2023-06-15 12:34:54 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				Preet is great
+2023-06-15 12:34:54 [http-nio-9443-exec-2] ERROR c.o.d.controllers.CityController -
+				An error occurred in getCities: / by zero

@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+
+
+
+
+image:
+  upload:
+    path: C:/Deskbook/images/
+    
+    
+          
+          

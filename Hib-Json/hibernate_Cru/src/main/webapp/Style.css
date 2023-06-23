@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 
+    10px 10px 30px #bebebe, /* Inner shadow */
+    -10px -10px 30px #ffffff; /* Outer shadow */
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
